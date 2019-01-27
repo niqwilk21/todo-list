@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS (CDN) and custom stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css" type="text/css">
+    <title>ToDo-List Application</title>
+</head>
+<body>
+    <div class="mt-5 container">
+        <header class="bg-success text-white">
+            <h2 class="p-3 display-5 text-center">To-Do List Application</h2>
+        </header>
+        <hr class="bg-light">
+        <form>
+            <div class="form-group">
+                <label for="inputTodos">Add Todo's</label>
+                <input type="text" class="form-control" id="inputTodos" placeholder="Add tasks..">
+            </div>
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <hr class="bg-light">
+        <ol id="list">
+            
+        </ol>
+    </div>
+    <!-- Custom scripts -->
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
